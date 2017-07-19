@@ -59,8 +59,7 @@ public class CharController : MonoBehaviour {
             cs = CharacterStates.normal;
         }
 
-        if (Input.GetKeyUp(KeyCode.Space) && cs == CharacterStates.normal){
-            Debug.LogError("Springen!");
+        if (Input.GetKey(KeyCode.Space) && cs == CharacterStates.normal){
             rb.AddForce(new Vector2(0, jumpPower));
             cs = CharacterStates.springen;
         }
