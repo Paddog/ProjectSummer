@@ -92,7 +92,7 @@ public class CharController : NetworkBehaviour {
         {
             //CRITICAL: Isnt relative to size, be careful if you have another size then 4!
             bc2d.size = new Vector2(bc2d.size.x, bc2d.size.y / 2);
-            bc2d.offset = new Vector2(bc2d.offset.x, (bc2d.size.y - 1) / -1);
+            bc2d.offset = new Vector2(bc2d.offset.x, bc2d.size.y / -2);
             cs = CharacterStates.ducken;
         }
         else
