@@ -79,6 +79,14 @@ public class CharController : NetworkBehaviour {
         {
             timestamp = Time.time + cooldown;
             isDuck = !isDuck;
+            if (isDuck)
+            {
+                speed = speed / 2;
+            }
+            else
+            {
+                speed = speed * 2;
+            }
             CmdCrouchToggle(isDuck);
         }
 
@@ -92,14 +100,12 @@ public class CharController : NetworkBehaviour {
         {
             bc2d.size = new Vector2(bc2d.size.x, bc2d.size.y / 2);
             bc2d.offset = new Vector2(bc2d.offset.x, bc2d.size.y / -2);
-            speed = speed / 2;
             cs = CharacterStates.ducken;
         }
         else
         {
             bc2d.size = new Vector2(bc2d.size.x, bc2d.size.y * 2);
             bc2d.offset = new Vector2(0, 0);
-            speed = speed * 2;
         }
         Debug.LogError("Sending info to client!");
         RpcSendColliderInfo(bc2d.size.x, bc2d.size.y, bc2d.offset.x, bc2d.offset.y);
