@@ -28,9 +28,8 @@ public class Door : NetworkBehaviour {
         if (collision.gameObject.tag == "Player")
         {
             Debug.LogError("TriggerEnter!");
-            //collision.GetComponent<DoorNetwork>().CmdSendDoorState(true, this.GetComponent<NetworkIdentity>().netId);
             isOpen = true;
-            ChangeState(isOpen);
+            animator.animator.SetBool("isOpen", true);
         }
     }
 
@@ -43,21 +42,26 @@ public class Door : NetworkBehaviour {
         {
             Debug.LogError("TriggerExit!");
             isOpen = false;
-            //collision.GetComponent<DoorNetwork>().CmdSendDoorState(false ,this.GetComponent<NetworkIdentity>().netId);
-            ChangeState(isOpen);
+            animator.animator.SetBool("isOpen", false);
         }
     }
 
 
+
+
     public void ChangeState(bool _isOpen) {
         animator.animator.SetBool("isOpen", _isOpen);
+        /*
         BoxCollider2D[] boxColliders = this.GetComponents<BoxCollider2D>();
         foreach (BoxCollider2D boxCollider in boxColliders) {
             if (boxCollider.isTrigger == false) {
                 box = boxCollider;
             }
         }
+        Debug.LogError("Animation abgespielt, Boxcollider deaktivieren");
+        
         box.enabled = !_isOpen;
+        */
     }
 
 }
