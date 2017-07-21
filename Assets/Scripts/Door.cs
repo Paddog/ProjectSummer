@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class Door : NetworkBehaviour {
 
-    private NetworkAnimator animator;
+    public NetworkAnimator animator;
     private BoxCollider2D box;
 
-    [SyncVar(hook="CS")]
+    [SyncVar(hook="ChangeState")]
     public bool isOpen = false;
     public float cooldown = 0.5f;
 
@@ -21,34 +21,35 @@ public class Door : NetworkBehaviour {
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        if(!isServer)
+            return;
+
+
         if (collision.gameObject.tag == "Player")
         {
             Debug.LogError("TriggerEnter!");
-            CmdSendDoorState(true);
+            //collision.GetComponent<DoorNetwork>().CmdSendDoorState(true, this.GetComponent<NetworkIdentity>().netId);
+            isOpen = true;
+            ChangeState(isOpen);
         }
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
+        if(!isServer)
+            return;
+
         if (collision.gameObject.tag == "Player")
         {
             Debug.LogError("TriggerExit!");
-            CmdSendDoorState(false);
+            isOpen = false;
+            //collision.GetComponent<DoorNetwork>().CmdSendDoorState(false ,this.GetComponent<NetworkIdentity>().netId);
+            ChangeState(isOpen);
         }
     }
 
-    [Command]
-    public void CmdSendDoorState(bool state) {
-        isOpen = state;
-    }
 
-
-    private void CS(bool _isOpen)
-    {
-        StartCoroutine(ChangeState(_isOpen));
-    }
-
-    public IEnumerator ChangeState(bool _isOpen) {
+    public void ChangeState(bool _isOpen) {
         animator.animator.SetBool("isOpen", _isOpen);
         BoxCollider2D[] boxColliders = this.GetComponents<BoxCollider2D>();
         foreach (BoxCollider2D boxCollider in boxColliders) {
@@ -56,10 +57,7 @@ public class Door : NetworkBehaviour {
                 box = boxCollider;
             }
         }
-
-        Debug.LogError("Schwanz!");
-        yield return new WaitForSeconds(1);
-        box.enabled = !box.enabled;
+        box.enabled = !_isOpen;
     }
 
 }
