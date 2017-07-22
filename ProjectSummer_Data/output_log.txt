@@ -2,73 +2,50 @@ Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 780 (ID=0x1004)
+    Renderer: NVIDIA GeForce GTX 650 (ID=0xfc6)
     Vendor:   NVIDIA
-    VRAM:     3013 MB
-    Driver:   22.21.13.8205
+    VRAM:     971 MB
+    Driver:   22.21.13.8253
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.dll (this message is harmless)
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.020 seconds
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.021 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.600160 ms
+UnloadTime: 2.109548 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.392636 ms
+UnloadTime: 0.317847 ms
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 377.
-Total: 0.209660 ms (FindLiveObjects: 0.012608 ms CreateObjectMapping: 0.013488 ms MarkObjects: 0.179750 ms  DeleteObjects: 0.003225 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 378.
+Total: 0.197177 ms (FindLiveObjects: 0.011818 ms CreateObjectMapping: 0.014617 ms MarkObjects: 0.167009 ms  DeleteObjects: 0.003421 ms)
 
-Initialize engine version: 2017.1.0f3 (472613c02cf7)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 780 (ID=0x1004)
-    Vendor:   NVIDIA
-    VRAM:     3013 MB
-    Driver:   22.21.13.8205
-Begin MonoManager ReloadAssembly
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.dll (this message is harmless)
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.025 seconds
-<RI> Initializing input.
-<RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 1.264411 ms
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.417267 ms
+Recieving Info!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 377.
-Total: 0.277396 ms (FindLiveObjects: 0.014075 ms CreateObjectMapping: 0.012902 ms MarkObjects: 0.246607 ms  DeleteObjects: 0.003518 ms)
+Recieving Info!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 5988 -> priority: 1 
-  Thread -> id: 44b8 -> priority: 1 
-  Thread -> id: 6234 -> priority: 1 
-  Thread -> id: 44c0 -> priority: 1 
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 5e7c -> priority: 1 
-  Thread -> id: 407c -> priority: 1 
-  Thread -> id: 606c -> priority: 1 
-  Thread -> id: 61d0 -> priority: 1 
+Recieving Info!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Recieving Info!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: b50 -> priority: 1 
+  Thread -> id: 1810 -> priority: 1 
