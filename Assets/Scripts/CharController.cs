@@ -12,12 +12,13 @@ public enum CharacterStates {
 }
 
 
-//CRITICAL: Synchronization on the network
+
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharController : NetworkBehaviour {
 
     public float speed;
     public float jumpPower;
+    public float noMovementThreshold = 0.0001f;
 
     private bool grounded = true;
     public Transform groundCheck;
@@ -33,9 +34,32 @@ public class CharController : NetworkBehaviour {
     private float cooldown = 1;
     private float timestamp = 0;
 
+    private const int noMovementFrames = 3;
+    private Vector3[] previousLocations = new Vector3[noMovementFrames];
+
+
+    private CameraController mainCamera;
+
+    void Awake() {
+        if(!isLocalPlayer)
+            return;
+
+
+
+
+        for(int i = 0; i < previousLocations.Length; i++) {
+            previousLocations[i] = Vector3.zero;
+        }
+    }
+
     void Start () {
         rb = this.GetComponent<Rigidbody2D>();
         cs = CharacterStates.normal;
+        mainCamera = GameObject.Find("SceneCamera").GetComponent<CameraController>();
+
+        if(isLocalPlayer) {
+            mainCamera.mainChar = this.gameObject;
+        }
 	}
 	
 
@@ -57,6 +81,10 @@ public class CharController : NetworkBehaviour {
 
         if (!isLocalPlayer) { return; }
 
+        for(int i = 0; i < previousLocations.Length - 1; i++) {
+            previousLocations[i] = previousLocations[i + 1];
+        }
+        previousLocations[previousLocations.Length - 1] = this.transform.position;
 
         //springen und ground check
         grounded = Physics2D.OverlapCircle(groundCheck.position, radius, groundLayer);
@@ -130,6 +158,19 @@ public class CharController : NetworkBehaviour {
         rb.velocity = new Vector2(x * speed, rb.velocity.y);
     }
 
+    //CRITICAL: Not working lastpos and curpos is the same position!
+    public bool? isMoving() {
+        for(int i = 0; i < previousLocations.Length - 1; i++) {
+            if(Vector3.Distance(previousLocations[i], previousLocations[i + 1]) >= noMovementThreshold) {
+                //The minimum movement has been detected between frames
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        return null;
+    }
 
 
 }
