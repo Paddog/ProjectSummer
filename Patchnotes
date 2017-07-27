@@ -1,16 +1,6 @@
 ﻿ProjectSummer:
-
-CharacterController:
-2D Bewegung(Links, Rechts, Springen, Ducken): Fertig
-Klettern, Leitern, Interagieren: 
-State Machine: Fertig
-
-
-Networking:
-Standard Server/Client Architecture: Fertig
-Position Sync: Fertig
-Crouch Sync: Fertig
-
+Fixed the Door Sync
+Fixed the KeyLock Sync
 
 Bugs:
 

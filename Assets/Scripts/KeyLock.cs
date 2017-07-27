@@ -8,6 +8,8 @@ using UnityEngine.Networking;
 //CRITICAL: There will be 2 CodeLocks For 1 Door, The 2 coresponding CodeLocks have to be the same state and need to have the same code
 public class KeyLock : NetworkBehaviour {
 
+    public KeyLock[] keyLockPartners;
+
     public GameObject connectedDoor;
     public Door conDoorScript;
     public bool isCodeKeyLock;
@@ -23,15 +25,22 @@ public class KeyLock : NetworkBehaviour {
 
 	void Start () {
         conDoorScript = connectedDoor.GetComponent<Door>();
-        if (isServer) {
-            //TODO: Set Code(Predefine Puzzles)
-            code = 1337;
-            isLocked = true;
-        }
+        //TODO: Set Code(Predefine Puzzles)
+        code = 1337;
+        isLocked = true;
+        ChangeIsLockedState(true);
 	}
-	
+
+
+    public void SyncKeyLockState() {
+        foreach(KeyLock keylock in keyLockPartners) {
+            Debug.LogError("Syncing State of Partners!");
+            keylock.isLocked = this.isLocked;
+        }
+    }
 
     private void ChangeIsLockedState(bool _isLocked) {
+        Debug.Log("ChanginState!");
         isLocked = _isLocked;
         if (isLocked)
         {

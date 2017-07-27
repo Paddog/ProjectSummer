@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
+//TODO: Infect dmg
 public class HealthController : NetworkBehaviour {
 
     public float dotCooldown = 1;

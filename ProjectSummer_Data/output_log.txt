@@ -1,121 +1,1124 @@
+Mono path[0] = 'D:/GamesProg/Projects/ProjectSummer/ProjectSummer_Data/Managed'
+Mono config path = 'D:/GamesProg/Projects/ProjectSummer/ProjectSummer_Data/Mono/etc'
+PlayerConnection initialized from D:/GamesProg/Projects/ProjectSummer/ProjectSummer_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55475
+Multi-casting "[IP] 192.168.0.24 [Port] 55475 [Flags] 2 [Guid] 3324634030 [EditorId] 405676848 [Version] 1048832 [Id] WindowsPlayer(Janna-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55475]
+PlayerConnection already initialized - listening to [0.0.0.0:55475]
+Player data archive not found at `D:/GamesProg/Projects/ProjectSummer/ProjectSummer_Data/data.unity3d`, using local filesystem
 Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 650 (ID=0xfc6)
+    Renderer: NVIDIA GeForce GTX 780 (ID=0x1004)
     Vendor:   NVIDIA
-    VRAM:     971 MB
-    Driver:   22.21.13.8253
+    VRAM:     3013 MB
+    Driver:   22.21.13.8205
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
-Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
-Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.Core.dll (this message is harmless)
 - Completed reload, in  0.028 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.982950 ms
+UnloadTime: 2.861631 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.658080 ms
-NullReferenceException: Object reference not set to an instance of an object
-  at CameraController.FixedUpdate () [0x00000] in <filename unknown>:0 
+UnloadTime: 0.254523 ms
+System memory in use before: 27.4 MB.
+System memory in use after: 27.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 470.
+Total: 0.265959 ms (FindLiveObjects: 0.017300 ms CreateObjectMapping: 0.019059 ms MarkObjects: 0.224614 ms  DeleteObjects: 0.004398 ms)
+
+ChanginState!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+KeyLock:ChangeIsLockedState(Boolean) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
  
-(Filename:  Line: -1)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at CameraController.FixedUpdate () [0x00000] in <filename unknown>:0 
+ChanginState!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+KeyLock:ChangeIsLockedState(Boolean) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
  
-(Filename:  Line: -1)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
 
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 455.
-Total: 1.203268 ms (FindLiveObjects: 0.023947 ms CreateObjectMapping: 0.016483 ms MarkObjects: 1.155062 ms  DeleteObjects: 0.007153 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at CameraController.FixedUpdate () [0x00000] in <filename unknown>:0 
+ChanginState!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+KeyLock:ChangeIsLockedState(Boolean) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
  
-(Filename:  Line: -1)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at CameraController.FixedUpdate () [0x00000] in <filename unknown>:0 
+ChanginState!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+KeyLock:ChangeIsLockedState(Boolean) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
  
-(Filename:  Line: -1)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at CameraController.FixedUpdate () [0x00000] in <filename unknown>:0 
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename:  Line: -1)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at CameraController.FixedUpdate () [0x00000] in <filename unknown>:0 
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename:  Line: -1)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
 
-Interacting!
+TriggerEnter!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerEnter2D(Collider2D) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\Door.cs:34)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/Door.cs Line: 34)
 
-Entering Code: False
+TriggerExit!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerExit2D(Collider2D) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\Door.cs:47)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/Door.cs Line: 47)
 
-Interacting!
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
 
-Entering Code: True
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
 
-Entering Code: True
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
 
-Interacting!
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
 
-Entering Code: False
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
 
-Entering Code: False
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
 
-Entering Code: False
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
 
-Interacting!
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
 
-Entering Code: True
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
 
-Entering Code: True
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
 
-Entering Code: True
+TriggerEnter!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerEnter2D(Collider2D) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\Door.cs:34)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/Door.cs Line: 34)
 
-Entering Code: True
+TriggerExit!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerExit2D(Collider2D) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\Door.cs:47)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/Door.cs Line: 47)
 
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2604 -> priority: 1 
-  Thread -> id: 21d8 -> priority: 1 
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+TriggerEnter!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerEnter2D(Collider2D) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\Door.cs:34)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/Door.cs Line: 34)
+
+TriggerExit!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerExit2D(Collider2D) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\Door.cs:47)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/Door.cs Line: 47)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+TriggerEnter!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerEnter2D(Collider2D) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\Door.cs:34)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/Door.cs Line: 34)
+
+TriggerExit!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerExit2D(Collider2D) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\Door.cs:47)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/Door.cs Line: 47)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Sending Command!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:103)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/CharController.cs Line: 103)
+
+Syncing State of Partners!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+KeyLock:SyncKeyLockState() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:37)
+CharController:CmdSendKeyLockState(Boolean, NetworkInstanceId) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\CharController.cs:106)
+CharController:InvokeCmdCmdSendKeyLockState(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1867)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 37)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:61701} time {40153}, last rec time {37922} rtt {11} timeout {2000}
+ServerDisconnected due to error: Timeout
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkManager:OnServerDisconnect(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1008)
+UnityEngine.Networking.NetworkManager:OnServerDisconnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:856)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(Int16, NetworkReader, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:220)
+UnityEngine.Networking.NetworkConnection:InvokeHandlerNoData(Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:202)
+UnityEngine.Networking.NetworkServer:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:715)
+UnityEngine.Networking.ServerSimpleWrapper:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1862)
+UnityEngine.Networking.NetworkServerSimple:HandleDisconnect(Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:364)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:253)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 1008)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 9a98 -> priority: 1 
+  Thread -> id: a1b0 -> priority: 1 
+  Thread -> id: 96cc -> priority: 1 
+  Thread -> id: a5c0 -> priority: 1 

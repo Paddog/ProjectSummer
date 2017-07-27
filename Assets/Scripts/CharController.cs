@@ -77,17 +77,21 @@ public class CharController : NetworkBehaviour {
             return;
         }
 
-        InputField inputF = DC.GetUiElement(interactableGO.name).transform.GetChild(2).GetComponent<InputField>();
+        InputField inputF = DC.GetUiElement(interactableGO.tag).transform.GetChild(2).GetComponent<InputField>();
         //If the Code is correct
         if (interactableGO.GetComponent<KeyLock>().EnterCode(int.Parse(inputF.text))) {
             if (interactableGO.GetComponent<KeyLock>().isLocked == true)
             {
+                Debug.LogError("Unlocking!");
                 CmdSendKeyLockState(false, interactableGO.GetComponent<NetworkIdentity>().netId);
-                DC.HideDialog(interactableGO.name);
+                
+                DC.HideDialog(interactableGO.tag);
             }
             else {
+                Debug.LogError("Locking!");
                 CmdSendKeyLockState(true, interactableGO.GetComponent<NetworkIdentity>().netId);
-                DC.HideDialog(interactableGO.name);
+                
+                DC.HideDialog(interactableGO.tag);
             }
 
         }
@@ -99,6 +103,7 @@ public class CharController : NetworkBehaviour {
         Debug.LogError("Sending Command!");
         NetworkServer.FindLocalObject(id).GetComponent<KeyLock>().isLocked = state;
         NetworkServer.FindLocalObject(id).GetComponent<KeyLock>().conDoorScript.isLocked = state;
+        NetworkServer.FindLocalObject(id).GetComponent<KeyLock>().SyncKeyLockState();
     }
 
 	void Update () {
@@ -107,8 +112,8 @@ public class CharController : NetworkBehaviour {
 
         if (interactableGO != null && Input.GetKeyUp(KeyCode.E)) {
             Debug.LogError("Interacting!");
-            DC.ShowDialog(interactableGO.name);
-            GameObject uiInteractGO = DC.GetUiElement(interactableGO.name);
+            DC.ShowDialog(interactableGO.tag);
+            GameObject uiInteractGO = DC.GetUiElement(interactableGO.tag);
             GameObject buttonOK = uiInteractGO.transform.GetChild(0).gameObject;
 
             buttonOK.GetComponent<Button>().onClick.AddListener(() => { EnterCode(); });
