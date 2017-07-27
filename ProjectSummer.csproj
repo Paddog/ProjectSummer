@@ -78,10 +78,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\CharacterController.cs" />
     <Compile Include="Assets\Scripts\CharController.cs" />
+    <Compile Include="Assets\Scripts\DialogController.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\DoorNetwork.cs" />
+    <Compile Include="Assets\Scripts\HealthController.cs" />
+    <Compile Include="Assets\Scripts\KeyLock.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

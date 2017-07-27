@@ -10,18 +10,22 @@ public class Door : NetworkBehaviour {
 
     [SyncVar(hook="ChangeState")]
     public bool isOpen = false;
+    [SyncVar]
+    public bool isLocked;
+
     public float cooldown = 0.5f;
 
 
     void Start()
     {
+
         animator = this.GetComponent<NetworkAnimator>();
         animator.animator.SetBool("isOpen", false);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(!isServer)
+        if(!isServer || isLocked)
             return;
 
 
@@ -35,7 +39,7 @@ public class Door : NetworkBehaviour {
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if(!isServer)
+        if(!isServer || isLocked)
             return;
 
         if (collision.gameObject.tag == "Player")

@@ -27,21 +27,20 @@ public class KeyLock : NetworkBehaviour {
             //TODO: Set Code(Predefine Puzzles)
             code = 1337;
             isLocked = true;
-            conDoorScript.isLocked = true;
         }
 	}
 	
 
     private void ChangeIsLockedState(bool _isLocked) {
-        if (_isLocked)
+        isLocked = _isLocked;
+        if (isLocked)
         {
             conDoorScript.isLocked = true;
         }
         else {
             conDoorScript.isLocked = false;
         }
-        isLocked = _isLocked;
-        
+             
     }
 
     public bool EnterCode(int _code) {

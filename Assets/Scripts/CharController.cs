@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Networking;
 
 
@@ -8,6 +9,7 @@ using UnityEngine.Networking;
 public enum CharacterStates {
     ducken,
     springen,
+    interagieren,
     normal
 }
 
@@ -24,6 +26,9 @@ public class CharController : NetworkBehaviour {
     public Transform groundCheck;
     public float radius;
     public LayerMask groundLayer;
+    
+    [SerializeField]
+    public DialogController DC;
 
     private Rigidbody2D rb;
     private CharacterStates cs;
@@ -39,6 +44,8 @@ public class CharController : NetworkBehaviour {
 
 
     private CameraController mainCamera;
+
+    public GameObject interactableGO;
 
     void Awake() {
         if(!isLocalPlayer)
@@ -59,27 +66,55 @@ public class CharController : NetworkBehaviour {
 
         if(isLocalPlayer) {
             mainCamera.mainChar = this.gameObject;
+            DC = GameObject.Find("Canvas").GetComponent<DialogController>();
         }
 	}
-	
 
-    /*
-     * 
-     * Character muss sich bewegen links rechts springen ducken x /// klettern
-     * 
-     * 
-     * 
-     * 
-     * 
-     * Character animation,
-     * Character states isDucken true, isJumpen true, isBewegung true, x         isInteragieren true, 
-     * 
-    */
 
+    //CRITICAL: If you are host and client this dosnt work for some reason!
+    void EnterCode() {
+        if (!isLocalPlayer) {
+            return;
+        }
+
+        InputField inputF = DC.GetUiElement(interactableGO.name).transform.GetChild(2).GetComponent<InputField>();
+        //If the Code is correct
+        if (interactableGO.GetComponent<KeyLock>().EnterCode(int.Parse(inputF.text))) {
+            if (interactableGO.GetComponent<KeyLock>().isLocked == true)
+            {
+                CmdSendKeyLockState(false, interactableGO.GetComponent<NetworkIdentity>().netId);
+                DC.HideDialog(interactableGO.name);
+            }
+            else {
+                CmdSendKeyLockState(true, interactableGO.GetComponent<NetworkIdentity>().netId);
+                DC.HideDialog(interactableGO.name);
+            }
+
+        }
+        cs = CharacterStates.normal;
+    }
+
+    [Command]
+    public void CmdSendKeyLockState(bool state, NetworkInstanceId id) {
+        Debug.LogError("Sending Command!");
+        NetworkServer.FindLocalObject(id).GetComponent<KeyLock>().isLocked = state;
+        NetworkServer.FindLocalObject(id).GetComponent<KeyLock>().conDoorScript.isLocked = state;
+    }
 
 	void Update () {
 
         if (!isLocalPlayer) { return; }
+
+        if (interactableGO != null && Input.GetKeyUp(KeyCode.E)) {
+            Debug.LogError("Interacting!");
+            DC.ShowDialog(interactableGO.name);
+            GameObject uiInteractGO = DC.GetUiElement(interactableGO.name);
+            GameObject buttonOK = uiInteractGO.transform.GetChild(0).gameObject;
+
+            buttonOK.GetComponent<Button>().onClick.AddListener(() => { EnterCode(); });
+            cs = CharacterStates.interagieren;
+        }
+
 
         for(int i = 0; i < previousLocations.Length - 1; i++) {
             previousLocations[i] = previousLocations[i + 1];
