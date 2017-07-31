@@ -26,7 +26,7 @@ public class KeyLock : NetworkBehaviour {
 	void Start () {
         conDoorScript = connectedDoor.GetComponent<Door>();
         //TODO: Set Code(Predefine Puzzles)
-        code = 1337;
+        //code = 1337;
         isLocked = true;
         ChangeIsLockedState(true);
 	}
@@ -65,14 +65,14 @@ public class KeyLock : NetworkBehaviour {
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player") {
-            collision.GetComponent<CharController>().interactableGO = this.gameObject;
+            collision.GetComponent<InteractController>().interactableGO = this.gameObject;
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player") {
-            collision.GetComponent<CharController>().interactableGO = null;
+            collision.GetComponent<InteractController>().interactableGO = null;
         }
     }
 
