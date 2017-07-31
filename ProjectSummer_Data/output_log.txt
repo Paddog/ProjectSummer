@@ -1,87 +1,170 @@
-Mono path[0] = 'D:/GamesProg/Projects/ProjectSummer/ProjectSummer_Data/Managed'
-Mono config path = 'D:/GamesProg/Projects/ProjectSummer/ProjectSummer_Data/Mono/etc'
-PlayerConnection initialized from D:/GamesProg/Projects/ProjectSummer/ProjectSummer_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55369
-Multi-casting "[IP] 192.168.2.105 [Port] 55369 [Flags] 2 [Guid] 289853633 [EditorId] 2379741371 [Version] 1048832 [Id] WindowsPlayer(Janna-PC) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55369]
-PlayerConnection already initialized - listening to [0.0.0.0:55369]
-Player data archive not found at `D:/GamesProg/Projects/ProjectSummer/ProjectSummer_Data/data.unity3d`, using local filesystem
+Mono path[0] = 'C:/Users/Leon/Documents/Projects/ProjectSummer/ProjectSummer_Data/Managed'
+Mono config path = 'C:/Users/Leon/Documents/Projects/ProjectSummer/ProjectSummer_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Leon/Documents/Projects/ProjectSummer/ProjectSummer_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55167
+Multi-casting "[IP] 192.168.0.15 [Port] 55167 [Flags] 2 [Guid] 3039021211 [EditorId] 3967974929 [Version] 1048832 [Id] WindowsPlayer(Leon-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55167]
+PlayerConnection already initialized - listening to [0.0.0.0:55167]
+Player data archive not found at `C:/Users/Leon/Documents/Projects/ProjectSummer/ProjectSummer_Data/data.unity3d`, using local filesystem
 Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 780 (ID=0x1004)
+    Renderer: NVIDIA GeForce GTX 650 (ID=0xfc6)
     Vendor:   NVIDIA
-    VRAM:     3013 MB
-    Driver:   22.21.13.8205
+    VRAM:     971 MB
+    Driver:   22.21.13.8253
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
-Loading D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.dll (this message is harmless)
-Platform assembly: D:\GamesProg\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.025 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.650489 ms
+Mono path[0] = 'C:/Users/Leon/Documents/Projects/ProjectSummer/ProjectSummer_Data/Managed'
+Mono config path = 'C:/Users/Leon/Documents/Projects/ProjectSummer/ProjectSummer_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Leon/Documents/Projects/ProjectSummer/ProjectSummer_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55333
+Multi-casting "[IP] 192.168.0.15 [Port] 55333 [Flags] 2 [Guid] 2203700072 [EditorId] 3967974929 [Version] 1048832 [Id] WindowsPlayer(Leon-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55333]
+PlayerConnection already initialized - listening to [0.0.0.0:55333]
+Player data archive not found at `C:/Users/Leon/Documents/Projects/ProjectSummer/ProjectSummer_Data/data.unity3d`, using local filesystem
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 650 (ID=0xfc6)
+    Vendor:   NVIDIA
+    VRAM:     971 MB
+    Driver:   22.21.13.8253
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Leon\Documents\Projects\ProjectSummer\ProjectSummer_Data\Managed\System.Core.dll (this message is harmless)
 - Completed reload, in  0.024 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.139788 ms
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.262148 ms
+UnloadTime: 1.410084 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.275859 ms
 System memory in use before: 27.4 MB.
 System memory in use after: 27.4 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 486.
-Total: 0.294990 ms (FindLiveObjects: 0.014954 ms CreateObjectMapping: 0.014075 ms MarkObjects: 0.251885 ms  DeleteObjects: 0.013488 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 489.
+Total: 0.244758 ms (FindLiveObjects: 0.018660 ms CreateObjectMapping: 0.016172 ms MarkObjects: 0.204017 ms  DeleteObjects: 0.005287 ms)
 
 ChanginState!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-KeyLock:ChangeIsLockedState(Boolean) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
-KeyLock:Start() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
+KeyLock:ChangeIsLockedState(Boolean) (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
  
-(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
+(Filename: C:/Users/Leon/Documents/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
 
 ChanginState!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-KeyLock:ChangeIsLockedState(Boolean) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
-KeyLock:Start() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
+KeyLock:ChangeIsLockedState(Boolean) (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
  
-(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
+(Filename: C:/Users/Leon/Documents/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
 
 ChanginState!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-KeyLock:ChangeIsLockedState(Boolean) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
-KeyLock:Start() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
+KeyLock:ChangeIsLockedState(Boolean) (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
  
-(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
+(Filename: C:/Users/Leon/Documents/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
 
 ChanginState!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-KeyLock:ChangeIsLockedState(Boolean) (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
-KeyLock:Start() (at D:\GamesProg\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
+KeyLock:ChangeIsLockedState(Boolean) (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
  
-(Filename: D:/GamesProg/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
+(Filename: C:/Users/Leon/Documents/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
 
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 518c -> priority: 1 
-  Thread -> id: 5188 -> priority: 1 
-  Thread -> id: 5190 -> priority: 1 
-  Thread -> id: 5194 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.296074 ms
+System memory in use before: 27.4 MB.
+System memory in use after: 27.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 489.
+Total: 0.291098 ms (FindLiveObjects: 0.024880 ms CreateObjectMapping: 0.023636 ms MarkObjects: 0.236672 ms  DeleteObjects: 0.005598 ms)
+
+ChanginState!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+KeyLock:ChangeIsLockedState(Boolean) (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
+ 
+(Filename: C:/Users/Leon/Documents/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
+
+ChanginState!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+KeyLock:ChangeIsLockedState(Boolean) (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
+ 
+(Filename: C:/Users/Leon/Documents/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
+
+ChanginState!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+KeyLock:ChangeIsLockedState(Boolean) (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
+ 
+(Filename: C:/Users/Leon/Documents/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
+
+ChanginState!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+KeyLock:ChangeIsLockedState(Boolean) (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:43)
+KeyLock:Start() (at C:\Users\Leon\Documents\Projects\ProjectSummer\Assets\Scripts\KeyLock.cs:31)
+ 
+(Filename: C:/Users/Leon/Documents/Projects/ProjectSummer/Assets/Scripts/KeyLock.cs Line: 43)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: c24 -> priority: 1 
+  Thread -> id: c38 -> priority: 1 
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 21ac -> priority: 1 
+  Thread -> id: 1320 -> priority: 1 

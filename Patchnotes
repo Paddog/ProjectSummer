@@ -1,9 +1,10 @@
 ﻿ProjectSummer:
 Fixed the Door Sync
 Fixed the KeyLock Sync
+Fixed the spiderman bug
 
 Bugs:
-
+man kann auf keylogs springen / man fliegt manchmal hoch
 von state normal zu state ducken kann man einmal springen
 spiderman bug
 physics gravity
