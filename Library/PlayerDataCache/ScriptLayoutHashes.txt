@@ -133,7 +133,10 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
-222f0991bdcc9bba71238c0298e9b706 Assembly-CSharp.dll:.CharController
+4ce333397c7322cc1d9ecc23749e56ff Assembly-CSharp.dll:.InteractController
+4456d25434dd8a801852e49fd45bc0a5 Assembly-CSharp.dll:.CharController
 f8a8cd89a4518e4b0e41582cea2ac778 Assembly-CSharp.dll:.CameraController
 c76c43f717cac5eacbf7e189b843940b Assembly-CSharp.dll:.Door
-4ce333397c7322cc1d9ecc23749e56ff Assembly-CSharp.dll:.InteractController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ItemManager
+de8f8f336e6067f59aa37f992479330e Assembly-CSharp.dll:.PickUpItem
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InventoryManager

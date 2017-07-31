@@ -18,7 +18,6 @@ public class Door : NetworkBehaviour {
 
     void Start()
     {
-
         animator = this.GetComponent<NetworkAnimator>();
         animator.animator.SetBool("isOpen", false);
     }

@@ -12,15 +12,15 @@ public class InteractController : NetworkBehaviour {
     private CharController character;
 
 
-	void Start () {
+    void Start() {
         if(!isLocalPlayer)
             return;
         character = this.GetComponent<CharController>();
         dialog = GameObject.Find("Canvas").GetComponent<DialogController>();
     }
-	
 
-	void Update () {
+
+    void Update() {
         if(!isLocalPlayer)
             return;
 
@@ -36,13 +36,22 @@ public class InteractController : NetworkBehaviour {
 
                     buttonOK.GetComponent<Button>().onClick.AddListener(() => { InteractKeyLock(); });
                     break;
+                case "PickUpItem":
+                    InventoryManager im = this.GetComponent<InventoryManager>();
+                    im.AddItem(interactableGO.GetComponent<PickUpItem>().item);
+                    //TODO: I do think this needs to be synchronized with the server but im not exactly sure
+                    CmdDestroyItemOnServer(interactableGO.GetComponent<NetworkIdentity>().netId);
+                    break;
             }
 
 
         }
     }
 
-
+    [Command]
+    private void CmdDestroyItemOnServer(NetworkInstanceId id) {
+        NetworkServer.Destroy(NetworkServer.FindLocalObject(id));
+    }
 
 
     //CRITICAL: If you are host and client this dosnt work for some reason!
