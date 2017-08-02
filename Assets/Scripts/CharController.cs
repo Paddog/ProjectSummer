@@ -41,10 +41,16 @@ public class CharController : NetworkBehaviour {
 
     private CameraController mainCamera;
 
+    private GameObject selector;
+    public bool[] toolbarSelected = new bool[2];
+
+    private InventoryManager inventory;
     void Start() {
         if(!isLocalPlayer)
             return;
 
+        inventory = this.gameObject.GetComponent<InventoryManager>();
+        selector = GameObject.FindGameObjectWithTag("Selector");
         rb = this.GetComponent<Rigidbody2D>();
         cs = CharacterStates.normal;
         mainCamera = GameObject.Find("SceneCamera").GetComponent<CameraController>();
@@ -54,6 +60,39 @@ public class CharController : NetworkBehaviour {
 
 	void Update () {
         if (!isLocalPlayer) { return; }
+
+        if (Input.GetKeyUp(KeyCode.Q))
+        {
+            if (inventory.curSelectedItem != null)
+            {
+                CmdSpawnItemOnServer(inventory.curSelectedItem.name);
+                inventory.RemoveItem(inventory.curSelectedItem);
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.Alpha1))
+        {
+            selector.transform.localPosition = new Vector3(-110, 0, 0);
+            toolbarSelected[0] = true;
+            toolbarSelected[1] = false;
+            toolbarSelected[2] = false;
+            inventory.GetSelectedItem(toolbarSelected);
+        }
+        else if (Input.GetKeyUp(KeyCode.Alpha2))
+        {
+            selector.transform.localPosition = new Vector3(0, 0, 0);
+            toolbarSelected[0] = false;
+            toolbarSelected[1] = true;
+            toolbarSelected[2] = false;
+            inventory.GetSelectedItem(toolbarSelected);
+        }
+        else if (Input.GetKeyUp(KeyCode.Alpha3)) {
+            selector.transform.localPosition = new Vector3(110, 0, 0);
+            toolbarSelected[0] = false;
+            toolbarSelected[1] = false;
+            toolbarSelected[2] = true;
+            inventory.GetSelectedItem(toolbarSelected);
+        }
 
 
         //springen und ground check
@@ -88,6 +127,15 @@ public class CharController : NetworkBehaviour {
             CmdCrouchToggle(isDuck);
         }
 
+    }
+
+    [Command]
+    private void CmdSpawnItemOnServer(string _name) {
+        //TODO: Spawn Item at the correct position!
+        GameObject loadedGO = Resources.Load(_name, typeof(GameObject)) as GameObject;
+        GameObject instGO = (GameObject)Instantiate(loadedGO);
+        instGO.transform.name = _name;
+        NetworkServer.Spawn(instGO);
     }
 
     [Command]

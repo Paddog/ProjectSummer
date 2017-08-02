@@ -33,6 +33,7 @@ public class InventorySlot : MonoBehaviour {
             }
 
         } else {
+            //TODO: We need a default graphic!
             Sprite loadedImage = Resources.Load("Default", typeof(Sprite)) as Sprite;
             if(loadedImage != null) {
                 curImage.sprite = loadedImage;

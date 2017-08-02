@@ -1,4 +1,5 @@
 WindowsStandalone
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DoorNetwork
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 de8f8f336e6067f59aa37f992479330e Assembly-CSharp.dll:.PickUpItem
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -110,6 +111,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 dd3bb0f6b9971fe121edaf6c51935e79 Assembly-CSharp.dll:.DialogController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InventorySlot
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Test
 605bcea4347a7840b825fd967a1a7563 Assembly-CSharp.dll:.HealthController
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -134,10 +136,10 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CharacterController
 4ce333397c7322cc1d9ecc23749e56ff Assembly-CSharp.dll:.InteractController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ItemManager
 a746111905aa510bdd24ab21f3f5288b Assembly-CSharp.dll:.InventoryManager
-4456d25434dd8a801852e49fd45bc0a5 Assembly-CSharp.dll:.CharController
+7c3d34b7ada5be53e1754907f3467d88 Assembly-CSharp.dll:.CharController
 f8a8cd89a4518e4b0e41582cea2ac778 Assembly-CSharp.dll:.CameraController
 c76c43f717cac5eacbf7e189b843940b Assembly-CSharp.dll:.Door
-96d945924fc4b94e16a3f7c0e1308724 Assembly-CSharp.dll:.InventorySlot

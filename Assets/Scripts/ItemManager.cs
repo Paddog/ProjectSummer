@@ -8,9 +8,11 @@ public class ItemManager : MonoBehaviour {
     public List<Item> itemList = new List<Item>();
 
 	void Start () {
-        itemDic.Add("KeyCard", new Item(0, "KeyCard", "KeyCard number: 0", 1));
+        itemDic.Add("KeyCard", new Item(0, "KeyCard", "KeyCard number: ", 1));
         itemList.Add(new Item(0, "KeyCard", "KeyCard number: 0", 1));
         itemDic.Add("Barricade", new Item(1, "Barricade", "Object to barricade corridors", 4));
         itemList.Add(new Item(1, "Barricade", "Object to barricade corridors", 4));
+        
+
     }
 }
