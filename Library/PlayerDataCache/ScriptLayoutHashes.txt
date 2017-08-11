@@ -140,6 +140,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 4ce333397c7322cc1d9ecc23749e56ff Assembly-CSharp.dll:.InteractController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ItemManager
 a746111905aa510bdd24ab21f3f5288b Assembly-CSharp.dll:.InventoryManager
-7c3d34b7ada5be53e1754907f3467d88 Assembly-CSharp.dll:.CharController
+a06cc4476be66e038b77d5acabcc9426 Assembly-CSharp.dll:.CharController
 f8a8cd89a4518e4b0e41582cea2ac778 Assembly-CSharp.dll:.CameraController
 c76c43f717cac5eacbf7e189b843940b Assembly-CSharp.dll:.Door
+d45fb5d7b0ccfd2fb1908005d1615b94 Assembly-CSharp.dll:.BuildCheck

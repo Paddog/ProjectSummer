@@ -42,7 +42,13 @@ public class CharController : NetworkBehaviour {
     private CameraController mainCamera;
 
     private GameObject selector;
-    public bool[] toolbarSelected = new bool[2];
+    public bool[] toolbarSelected;
+
+    public GameObject buildCheckGO;
+
+    private bool isGhostObjectSpawned = false;
+    private GameObject barricadeGhost;
+
 
     private InventoryManager inventory;
     void Start() {
@@ -56,17 +62,32 @@ public class CharController : NetworkBehaviour {
         mainCamera = GameObject.Find("SceneCamera").GetComponent<CameraController>();
 
         mainCamera.mainChar = this.gameObject;
-	}
+
+        toolbarSelected = new bool[3];
+
+        toolbarSelected[0] = false;
+        toolbarSelected[1] = true;
+        toolbarSelected[2] = false;
+
+        buildCheckGO = this.transform.GetChild(1).gameObject;
+    }
 
 	void Update () {
         if (!isLocalPlayer) { return; }
+
 
         if (Input.GetKeyUp(KeyCode.Q))
         {
             if (inventory.curSelectedItem != null)
             {
-                CmdSpawnItemOnServer(inventory.curSelectedItem.name);
+                //TODO: Find the right position at the feet of the character, maybe use the groundcheck!
+                CmdSpawnItemOnServer(inventory.curSelectedItem.name, this.transform.position.x, this.transform.position.y);
                 inventory.RemoveItem(inventory.curSelectedItem);
+                if (isGhostObjectSpawned)
+                {
+                    Destroy(barricadeGhost);
+                    isGhostObjectSpawned = false;
+                }
             }
         }
 
@@ -92,6 +113,29 @@ public class CharController : NetworkBehaviour {
             toolbarSelected[1] = false;
             toolbarSelected[2] = true;
             inventory.GetSelectedItem(toolbarSelected);
+        }
+
+        if (inventory.curSelectedItem != null) {
+            if(inventory.curSelectedItem.name == "Barricade" && isGhostObjectSpawned == false)
+            {
+                GameObject loadedGO = Resources.Load("BarricadeGhost", typeof(GameObject)) as GameObject;
+                barricadeGhost = Instantiate(loadedGO) as GameObject;
+                barricadeGhost.transform.position = buildCheckGO.transform.position;
+                isGhostObjectSpawned = true;
+            }
+
+        }
+
+        if (isGhostObjectSpawned)
+        {
+            barricadeGhost.transform.position = buildCheckGO.transform.position;
+            if (Input.GetKeyUp(KeyCode.F))
+            {
+                CmdSpawnBarricadeOnServer(buildCheckGO.transform.position.x, buildCheckGO.transform.position.y);
+                Destroy(barricadeGhost);
+                isGhostObjectSpawned = false;
+                inventory.RemoveItem(inventory.curSelectedItem);
+            }
         }
 
 
@@ -129,11 +173,20 @@ public class CharController : NetworkBehaviour {
 
     }
 
+
     [Command]
-    private void CmdSpawnItemOnServer(string _name) {
-        //TODO: Spawn Item at the correct position!
+    private void CmdSpawnBarricadeOnServer(float xPos, float yPos) {
+        GameObject loadedGO = Resources.Load("BarricadeGO", typeof(GameObject)) as GameObject;
+        GameObject barricadeGO = Instantiate(loadedGO) as GameObject;
+        barricadeGO.transform.position = new Vector3(xPos, yPos);
+        NetworkServer.Spawn(barricadeGO);
+    }
+
+    [Command]
+    private void CmdSpawnItemOnServer(string _name, float xPos, float yPos) {
         GameObject loadedGO = Resources.Load(_name, typeof(GameObject)) as GameObject;
         GameObject instGO = (GameObject)Instantiate(loadedGO);
+        instGO.transform.position = new Vector2(xPos, yPos);
         instGO.transform.name = _name;
         NetworkServer.Spawn(instGO);
     }

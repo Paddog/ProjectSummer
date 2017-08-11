@@ -20,10 +20,7 @@ public class InventoryManager : MonoBehaviour {
 
     void Update()
     {
-        if (curSelectedItem != null)
-        {
-            Debug.LogError(curSelectedItem.name);
-        }
+
     }
 
     public void AddItem(Item item) {
