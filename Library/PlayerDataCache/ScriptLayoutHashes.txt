@@ -78,6 +78,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+d45fb5d7b0ccfd2fb1908005d1615b94 Assembly-CSharp.dll:.BuildCheck
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cac917711d0e84d412d48737b6fc9ae7 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 706b890efe0a474d76b40e459ddb3e76 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -143,4 +144,3 @@ a746111905aa510bdd24ab21f3f5288b Assembly-CSharp.dll:.InventoryManager
 a06cc4476be66e038b77d5acabcc9426 Assembly-CSharp.dll:.CharController
 f8a8cd89a4518e4b0e41582cea2ac778 Assembly-CSharp.dll:.CameraController
 c76c43f717cac5eacbf7e189b843940b Assembly-CSharp.dll:.Door
-d45fb5d7b0ccfd2fb1908005d1615b94 Assembly-CSharp.dll:.BuildCheck
