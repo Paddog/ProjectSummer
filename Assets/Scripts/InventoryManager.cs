@@ -16,6 +16,7 @@ public class InventoryManager : MonoBehaviour {
         for(int i = 0; i < toolBar.transform.childCount; i++) {
             inventorySlots.Add(toolBar.transform.GetChild(i).GetComponent<InventorySlot>());
         }
+        curSelectedItem = new Item(-1, "Null", "Null", 0);
     }
 
     void Update()
@@ -69,7 +70,7 @@ public class InventoryManager : MonoBehaviour {
                     curSelectedItem = items[i];
                 }
                 else {
-                    curSelectedItem = null;
+                    curSelectedItem = new Item(-1, "Null", "Null", 0);
                 }
             }
         }

@@ -12,7 +12,8 @@ public class ItemManager : MonoBehaviour {
         itemList.Add(new Item(0, "KeyCard", "KeyCard number: 0", 1));
         itemDic.Add("Barricade", new Item(1, "Barricade", "Object to barricade corridors", 4));
         itemList.Add(new Item(1, "Barricade", "Object to barricade corridors", 4));
-        
+        itemDic.Add("SledgeHammer", new Item(2, "SledgeHammer", "Used to destroy walls", 1));
+        itemList.Add(new Item(2, "SledgeHammer", "Used to destroy walls", 1));
 
     }
 }

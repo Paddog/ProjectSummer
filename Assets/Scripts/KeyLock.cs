@@ -34,13 +34,13 @@ public class KeyLock : NetworkBehaviour {
 
     public void SyncKeyLockState() {
         foreach(KeyLock keylock in keyLockPartners) {
-            Debug.LogError("Syncing State of Partners!");
+            
             keylock.isLocked = this.isLocked;
         }
     }
 
     private void ChangeIsLockedState(bool _isLocked) {
-        Debug.Log("ChanginState!");
+
         isLocked = _isLocked;
         if (isLocked)
         {

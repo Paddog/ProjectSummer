@@ -50,7 +50,11 @@ public class CharController : NetworkBehaviour {
     private GameObject barricadeGhost;
 
 
-    private InventoryManager inventory;
+    public InventoryManager inventory;
+    private Item lastItem;
+
+
+    private MeeleCheck MC;
     void Start() {
         if(!isLocalPlayer)
             return;
@@ -70,6 +74,7 @@ public class CharController : NetworkBehaviour {
         toolbarSelected[2] = false;
 
         buildCheckGO = this.transform.GetChild(1).gameObject;
+        MC = this.GetComponentInChildren<MeeleCheck>();
     }
 
 	void Update () {
@@ -90,6 +95,8 @@ public class CharController : NetworkBehaviour {
                 }
             }
         }
+
+
 
         if (Input.GetKeyUp(KeyCode.Alpha1))
         {
@@ -116,7 +123,7 @@ public class CharController : NetworkBehaviour {
         }
 
         if (inventory.curSelectedItem != null) {
-            if(inventory.curSelectedItem.name == "Barricade" && isGhostObjectSpawned == false)
+            if (inventory.curSelectedItem.name == "Barricade" && isGhostObjectSpawned == false)
             {
                 GameObject loadedGO = Resources.Load("BarricadeGhost", typeof(GameObject)) as GameObject;
                 barricadeGhost = Instantiate(loadedGO) as GameObject;
@@ -125,6 +132,13 @@ public class CharController : NetworkBehaviour {
             }
 
         }
+
+        if (inventory.curSelectedItem.name != "Barricade" || inventory.curSelectedItem.id == -1)
+        {
+            Destroy(barricadeGhost);
+            isGhostObjectSpawned = false;
+        }
+
 
         if (isGhostObjectSpawned)
         {
@@ -137,8 +151,7 @@ public class CharController : NetworkBehaviour {
                 inventory.RemoveItem(inventory.curSelectedItem);
             }
         }
-
-
+        
         //springen und ground check
         grounded = Physics2D.OverlapCircle(groundCheck.position, radius, groundLayer);
 
@@ -171,8 +184,25 @@ public class CharController : NetworkBehaviour {
             CmdCrouchToggle(isDuck);
         }
 
+
+        if (MC.allowSwing)
+        {
+            if (Input.GetKeyUp(KeyCode.F)) {
+                CmdDamageBarricade(25, MC.curBarricade.gameObject.GetComponent<NetworkIdentity>().netId);
+            }
+        }
+
+        lastItem = inventory.curSelectedItem;
     }
 
+    [Command]
+    private void CmdDamageBarricade(int dmg, NetworkInstanceId barId) {
+        Barricade bar = NetworkServer.FindLocalObject(barId).GetComponent<Barricade>();
+        bar.health -= dmg;
+        if (bar.health <= 0) {
+            NetworkServer.Destroy(bar.gameObject);
+        }
+    }
 
     [Command]
     private void CmdSpawnBarricadeOnServer(float xPos, float yPos) {

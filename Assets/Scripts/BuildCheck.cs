@@ -31,4 +31,6 @@ public class BuildCheck : MonoBehaviour {
 
         lastPos = curPos;
 	}
+
+
 }
