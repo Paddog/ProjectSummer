@@ -17,8 +17,9 @@ public enum CharacterStates {
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharController : NetworkBehaviour {
-
-    //Movement
+    [SyncVar]
+    public bool isStunned = false;
+    
     public float speed;
     public float jumpPower;
     private bool grounded = true;
@@ -55,6 +56,9 @@ public class CharController : NetworkBehaviour {
 
 
     private MeeleCheck MC;
+
+
+    private float timer;
     void Start() {
         if(!isLocalPlayer)
             return;
@@ -78,8 +82,22 @@ public class CharController : NetworkBehaviour {
     }
 
 	void Update () {
-        if (!isLocalPlayer) { return; }
+        if (isServer) {
+            if (isStunned)
+            {
+                if (timer < Time.time) {
+                    isStunned = false;
+                    RpcUnstunPlayer();
+                }
+            }
+        }
 
+        if (!isLocalPlayer) {
+            return;
+        }
+        if (isStunned) {
+            return;
+        }
 
         if (Input.GetKeyUp(KeyCode.Q))
         {
@@ -188,11 +206,30 @@ public class CharController : NetworkBehaviour {
         if (MC.allowSwing)
         {
             if (Input.GetKeyUp(KeyCode.F)) {
-                CmdDamageBarricade(25, MC.curBarricade.gameObject.GetComponent<NetworkIdentity>().netId);
+                if (MC.curCollided.tag == "Barricade")
+                {
+                    CmdDamageBarricade(25, MC.curCollided.GetComponent<NetworkIdentity>().netId);
+                }
+                else if (MC.curCollided.tag == "Player") {
+                    CmdStunPlayer(5, MC.curCollided.GetComponent<NetworkIdentity>().netId);
+                }
             }
         }
 
         lastItem = inventory.curSelectedItem;
+    }
+
+    [Command]
+    private void CmdStunPlayer(int time, NetworkInstanceId playerID) {
+        GameObject player = NetworkServer.FindLocalObject(playerID);
+        CharController playerController = player.GetComponent<CharController>();
+        playerController.isStunned = true;
+        playerController.timer = time + Time.time;
+    }
+
+    [ClientRpc]
+    private void RpcUnstunPlayer() {
+        isStunned = false;
     }
 
     [Command]
@@ -246,6 +283,10 @@ public class CharController : NetworkBehaviour {
 
     void FixedUpdate(){
         if (!isLocalPlayer) { return; }
+        if (isStunned)
+        {
+            return;
+        }
         //Bewegung Horizontal
         float x = 0;
         x = Input.GetAxis("Horizontal");

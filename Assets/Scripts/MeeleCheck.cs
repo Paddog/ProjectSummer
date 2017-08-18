@@ -9,7 +9,7 @@ public class MeeleCheck : MonoBehaviour {
     public bool isActive = false;
     public bool allowSwing = false;
 
-    public Barricade curBarricade;
+    public GameObject curCollided;
     private void Start()
     {
         meeleCollider = this.GetComponent<BoxCollider2D>();
@@ -29,7 +29,7 @@ public class MeeleCheck : MonoBehaviour {
 
         if (character.inventory.curSelectedItem != null)
         {
-            if (character.inventory.curSelectedItem.name == "SledgeHammer")
+            if (character.inventory.curSelectedItem.name == "SledgeHammer" || character.inventory.curSelectedItem.name == "Tazer")
             {
                 meeleCollider.enabled = true;
                 isActive = true;
@@ -52,8 +52,8 @@ public class MeeleCheck : MonoBehaviour {
         {
             return;
         }
-        if (col.tag == "Barricade") {
-            curBarricade = col.GetComponent<Barricade>();
+        if (col.tag == "Barricade" || col.tag == "Player") {
+            curCollided = col.gameObject;
             allowSwing = true;
         }
     }
@@ -64,8 +64,8 @@ public class MeeleCheck : MonoBehaviour {
         {
             return;
         }
-        if (col.tag == "Barricade") {
-            curBarricade = null;
+        if (col.tag == "Barricade" || col.tag == "Player") {
+            curCollided = null;
             allowSwing = false;
         }
     }
