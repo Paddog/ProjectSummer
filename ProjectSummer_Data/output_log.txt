@@ -1,10 +1,10 @@
 Mono path[0] = 'D:/Projects/Unity/ProjectSummer/ProjectSummer_Data/Managed'
 Mono config path = 'D:/Projects/Unity/ProjectSummer/ProjectSummer_Data/Mono/etc'
 PlayerConnection initialized from D:/Projects/Unity/ProjectSummer/ProjectSummer_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55282
-Multi-casting "[IP] 192.168.2.105 [Port] 55282 [Flags] 2 [Guid] 2370145645 [EditorId] 766500364 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-E955EFV) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55282]
-PlayerConnection already initialized - listening to [0.0.0.0:55282]
+PlayerConnection initialized network socket : 0.0.0.0 55295
+Multi-casting "[IP] 192.168.2.105 [Port] 55295 [Flags] 2 [Guid] 4047751173 [EditorId] 3931207727 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-E955EFV) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55295]
+PlayerConnection already initialized - listening to [0.0.0.0:55295]
 Player data archive not found at `D:/Projects/Unity/ProjectSummer/ProjectSummer_Data/data.unity3d`, using local filesystem
 Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
@@ -27,18 +27,18 @@ Platform assembly: D:\Projects\Unity\ProjectSummer\ProjectSummer_Data\Managed\Un
 Loading D:\Projects\Unity\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: D:\Projects\Unity\ProjectSummer\ProjectSummer_Data\Managed\System.dll (this message is harmless)
 Platform assembly: D:\Projects\Unity\ProjectSummer\ProjectSummer_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.195 seconds
+- Completed reload, in  0.175 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.853184 ms
+UnloadTime: 2.844093 ms
 Mono path[0] = 'D:/Projects/Unity/ProjectSummer/ProjectSummer_Data/Managed'
 Mono config path = 'D:/Projects/Unity/ProjectSummer/ProjectSummer_Data/Mono/etc'
 PlayerConnection initialized from D:/Projects/Unity/ProjectSummer/ProjectSummer_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55083
-Multi-casting "[IP] 192.168.2.105 [Port] 55083 [Flags] 2 [Guid] 3297176355 [EditorId] 766500364 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-E955EFV) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55083]
-PlayerConnection already initialized - listening to [0.0.0.0:55083]
+PlayerConnection initialized network socket : 0.0.0.0 55156
+Multi-casting "[IP] 192.168.2.105 [Port] 55156 [Flags] 2 [Guid] 526976997 [EditorId] 3931207727 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-E955EFV) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55156]
+PlayerConnection already initialized - listening to [0.0.0.0:55156]
 Player data archive not found at `D:/Projects/Unity/ProjectSummer/ProjectSummer_Data/data.unity3d`, using local filesystem
 Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
@@ -61,26 +61,160 @@ Platform assembly: D:\Projects\Unity\ProjectSummer\ProjectSummer_Data\Managed\Un
 Loading D:\Projects\Unity\ProjectSummer\ProjectSummer_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: D:\Projects\Unity\ProjectSummer\ProjectSummer_Data\Managed\System.dll (this message is harmless)
 Platform assembly: D:\Projects\Unity\ProjectSummer\ProjectSummer_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.024 seconds
+- Completed reload, in  0.022 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
+UnloadTime: 1.655315 ms
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.201680 ms
-UnloadTime: 0.263325 ms
+UnloadTime: 0.472402 ms
 System memory in use before: 27.4 MB.
 System memory in use after: 27.4 MB.
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 593.
-Total: 0.458034 ms (FindLiveObjects: 0.047210 ms CreateObjectMapping: 0.021112 ms MarkObjects: 0.381792 ms  DeleteObjects: 0.006744 ms)
+Total: 0.390003 ms (FindLiveObjects: 0.034015 ms CreateObjectMapping: 0.020233 ms MarkObjects: 0.329890 ms  DeleteObjects: 0.005571 ms)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.563305 ms
+UnloadTime: 0.562719 ms
 System memory in use before: 27.4 MB.
 System memory in use after: 27.4 MB.
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 593.
-Total: 0.484718 ms (FindLiveObjects: 0.041053 ms CreateObjectMapping: 0.029616 ms MarkObjects: 0.404958 ms  DeleteObjects: 0.008503 ms)
+Total: 0.519320 ms (FindLiveObjects: 0.110549 ms CreateObjectMapping: 0.032842 ms MarkObjects: 0.368010 ms  DeleteObjects: 0.006744 ms)
+
+TriggerEnter!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerEnter2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:33)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 33)
+
+TriggerExit!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerExit2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:46)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 46)
+
+TriggerEnter!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerEnter2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:33)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 33)
+
+TriggerExit!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerExit2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:46)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 46)
+
+TriggerEnter!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerEnter2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:33)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 33)
+
+TriggerExit!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerExit2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:46)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 46)
+
+TriggerEnter!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerEnter2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:33)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 33)
+
+TriggerExit!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerExit2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:46)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 46)
+
+TriggerEnter!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerEnter2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:33)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 33)
+
+TriggerExit!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerExit2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:46)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 46)
+
+TriggerEnter!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerEnter2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:33)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 33)
+
+TriggerExit!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Door:OnTriggerExit2D(Collider2D) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\Door.cs:46)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/Door.cs Line: 46)
+
+Sprite for this item is missing: SledgeHammer
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+InventorySlot:OnCurrentItemChange() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventorySlot.cs:32)
+InventorySlot:set_curItem(Item) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventorySlot.cs:12)
+InventoryManager:SyncItemsWithInventory() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventoryManager.cs:58)
+InventoryManager:AddItem(Item) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventoryManager.cs:36)
+InteractController:Update() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InteractController.cs:41)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/InventorySlot.cs Line: 32)
+
+Sprite for this item is missing: SledgeHammer
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+InventorySlot:OnCurrentItemChange() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventorySlot.cs:32)
+InventorySlot:set_curItem(Item) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventorySlot.cs:12)
+InventoryManager:SyncItemsWithInventory() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventoryManager.cs:58)
+InventoryManager:AddItem(Item) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventoryManager.cs:36)
+InteractController:Update() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InteractController.cs:41)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/InventorySlot.cs Line: 32)
 
 Sprite for this item is missing: Tazer
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -95,53 +229,53 @@ InteractController:Update() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\I
  
 (Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/InventorySlot.cs Line: 32)
 
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 28cc -> priority: 1 
-  Thread -> id: 1528 -> priority: 1 
-  Thread -> id: 2dd0 -> priority: 1 
-  Thread -> id: 1af0 -> priority: 1 
-Log: connection {2} has been disconnected by timeout; address {::ffff:127.0.0.1:52644} time {48426}, last rec time {45981} rtt {12} timeout {2000}
-ServerDisconnected due to error: Timeout
+Sprite for this item is missing: SledgeHammer
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogError(Object)
-UnityEngine.Networking.NetworkManager:OnServerDisconnect(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1008)
-UnityEngine.Networking.NetworkManager:OnServerDisconnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:856)
-UnityEngine.Networking.NetworkConnection:InvokeHandler(Int16, NetworkReader, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:220)
-UnityEngine.Networking.NetworkConnection:InvokeHandlerNoData(Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:202)
-UnityEngine.Networking.NetworkServer:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:715)
-UnityEngine.Networking.ServerSimpleWrapper:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1862)
-UnityEngine.Networking.NetworkServerSimple:HandleDisconnect(Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:364)
-UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:253)
-UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
-UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+InventorySlot:OnCurrentItemChange() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventorySlot.cs:32)
+InventorySlot:set_curItem(Item) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventorySlot.cs:12)
+InventoryManager:SyncItemsWithInventory() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventoryManager.cs:58)
+InventoryManager:RemoveItem(Item) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventoryManager.cs:52)
+CharController:Update() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\CharController.cs:108)
  
-(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 1008)
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/InventorySlot.cs Line: 32)
 
-Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:56881} time {50854}, last rec time {48614} rtt {2} timeout {2000}
-ServerDisconnected due to error: Timeout
+Sprite for this item is missing: SledgeHammer
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogError(Object)
-UnityEngine.Networking.NetworkManager:OnServerDisconnect(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1008)
-UnityEngine.Networking.NetworkManager:OnServerDisconnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:856)
-UnityEngine.Networking.NetworkConnection:InvokeHandler(Int16, NetworkReader, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:220)
-UnityEngine.Networking.NetworkConnection:InvokeHandlerNoData(Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:202)
-UnityEngine.Networking.NetworkServer:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:715)
-UnityEngine.Networking.ServerSimpleWrapper:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1862)
-UnityEngine.Networking.NetworkServerSimple:HandleDisconnect(Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:364)
-UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:253)
-UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
-UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+InventorySlot:OnCurrentItemChange() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventorySlot.cs:32)
+InventorySlot:set_curItem(Item) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventorySlot.cs:12)
+InventoryManager:SyncItemsWithInventory() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventoryManager.cs:58)
+InventoryManager:AddItem(Item) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventoryManager.cs:36)
+InteractController:Update() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InteractController.cs:41)
  
-(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 1008)
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/InventorySlot.cs Line: 32)
+
+Sprite for this item is missing: SledgeHammer
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+InventorySlot:OnCurrentItemChange() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventorySlot.cs:32)
+InventorySlot:set_curItem(Item) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventorySlot.cs:12)
+InventoryManager:SyncItemsWithInventory() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventoryManager.cs:58)
+InventoryManager:RemoveItem(Item) (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\InventoryManager.cs:52)
+CharController:Update() (at D:\Projects\Unity\ProjectSummer\Assets\Scripts\CharController.cs:169)
+ 
+(Filename: D:/Projects/Unity/ProjectSummer/Assets/Scripts/InventorySlot.cs Line: 32)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 370 -> priority: 1 
-  Thread -> id: 6e4 -> priority: 1 
-  Thread -> id: 1780 -> priority: 1 
-  Thread -> id: 185c -> priority: 1 
+  Thread -> id: 2ea4 -> priority: 1 
+  Thread -> id: 3380 -> priority: 1 
+  Thread -> id: 2838 -> priority: 1 
+  Thread -> id: 33e0 -> priority: 1 
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:65262} time {61475}, last rec time {59149} rtt {12} timeout {2000}
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 3190 -> priority: 1 
+  Thread -> id: 23a0 -> priority: 1 
+  Thread -> id: 1160 -> priority: 1 
+  Thread -> id: 38c -> priority: 1 

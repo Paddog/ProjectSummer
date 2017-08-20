@@ -60,9 +60,17 @@ public class InteractController : NetworkBehaviour {
             return;
         }
 
+        int code;
         InputField inputF = dialog.GetUiElement(interactableGO.tag).transform.GetChild(2).GetComponent<InputField>();
-        
-        if(interactableGO.GetComponent<KeyLock>().EnterCode(int.Parse(inputF.text))) {
+        if (inputF.text != null && inputF.text != "")
+        {
+            code = int.Parse(inputF.text);
+        }
+        else {
+            code = 0000;
+        }
+
+        if(interactableGO.GetComponent<KeyLock>().EnterCode(code) || character.inventory.curSelectedItem.name == "KeyCard") {
             if(interactableGO.GetComponent<KeyLock>().isLocked == true) {
                 CmdSendKeyLockState(false, interactableGO.GetComponent<NetworkIdentity>().netId);
                 dialog.HideDialog(interactableGO.tag);

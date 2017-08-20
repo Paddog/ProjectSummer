@@ -86,6 +86,8 @@
     <Compile Include="Assets\Scripts\DialogController.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\DoorNetwork.cs" />
+    <Compile Include="Assets\Scripts\FinishLine.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\HealthController.cs" />
     <Compile Include="Assets\Scripts\InteractController.cs" />
     <Compile Include="Assets\Scripts\InventoryManager.cs" />
